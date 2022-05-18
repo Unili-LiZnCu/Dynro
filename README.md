@@ -12,7 +12,7 @@
 ### DYNRO没钱干这种事。就像它的名字一样，DYNRO通过对CDN和DNS的解析和选路来“动态的”链接到速度最快的线路。这个“速度最快”只是相对而言。如果所有线路都很慢，那么DYNRO也无能为力。
 ### 当然，如果你遇到了dns污染或是其他的什么情况，例如DNS抽风了，但是网站确实正常的运行并且未被阻挡的情况下。DYNRO可以通过dnscrypt-proxy的强大功能来帮助你顺利的链接。
 ### dnscrypt-proxy是个很实用且功能强大的软件，如果你有条件的话，你可以在你的服务器上搭一套来为自己提供“纯净的”DNS解析。
-### 本软件受到github.com/dotnetcore/fastgithub的启发,fastgithub相当的好用。
+### 本软件受到github.com/dotnetcore/fastgithub的启发
 
 <!-- 我刚刚把这段话git push上去了 (/≧▽≦)/ -2022/5/18 !-->
 <!-- Force 大法好 , 南无Force佛 ( •̀ ω •́ )y !-->
