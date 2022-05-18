@@ -1,4 +1,4 @@
-module github.com/Unili-LiZnCu/fastacademy
+module github.com/Unili-LiZnCu/dynro
 
 go 1.18
 
