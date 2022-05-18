@@ -28,6 +28,7 @@ func DetectRunningEnviroment() (ops string ,arc string, pnm string) {
 		arc = "am"
 		pnm = "64"
 	}
+	return ops,arc,pnm
 }
 
 func main() {
