@@ -1,3 +1,16 @@
+2022 - 5 - 19
+    Signiture Improved Commit
+    > 改了cert生成器,现在会生成.pem
+    > LICENSE改回了MIT
+    > 配置了dnscrypt-proxy
+    > 写了个简单的proxy实现
+    > x509库抽风了,一直panic。。。
+    > Copilot也抽风了...
+      今天被Copilot坑了,写的时候IpAddresses需要net.IP,结果Copilot补齐补成了[]byte("127.0.0.1"),改了半天才发现并且改成ParseIP
+      写Changelog的时候也是...Vscode把文件识别成了.ini,Copilot补齐补的贼奇怪
+    > log库一直输出不了。。。改了一遍好使了，然后又出问题了
+    
+
 2022 - 5 - 18
     Initial Commit
     > 改LICENSE , MIT改成了Apache

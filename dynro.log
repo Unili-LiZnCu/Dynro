@@ -1,0 +1,18 @@
+[info]2022/05/19 11:00:07.329348 http.go:23: Logger Started.
+[info]2022/05/19 11:00:07.329348 http.go:29: Http Handler Started
+[info]2022/05/19 11:00:07.329731 server.go:3197: http: panic serving 127.0.0.1:24816: runtime error: invalid memory address or nil pointer dereference
+goroutine 1358 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x62afe0, 0x81b920})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+github.com/Unili-LiZnCu/dynro/lib/net/http.HttpsGetAndSend({0x6d2310, 0xc0000862a0}, 0xc0000ee300)
+	C:/Users/Liu/Desktop/FastAcademy/lib/net/http/http.go:38 +0x130
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6d2310?, 0xc0000862a0?}, 0x828720?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.serverHandler.ServeHTTP({0xc00009a450?}, {0x6d2310, 0xc0000862a0}, 0xc0000ee300)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0140, {0x6d2478, 0xc000132e70})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db

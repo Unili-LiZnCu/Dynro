@@ -1,5 +1,13 @@
 package dparams
 
-var (
-	StartDnscrypt string = "dnscrypt.exe "
-)
+type Dnscrypt_Windows struct {
+	
+}
+
+type Dnscrypt_Darwin struct {
+
+}
+
+type Dnscrypt_Linux struct {
+	
+}
